@@ -12,6 +12,8 @@ map('n', "<C-s>", ":w<CR>")
 map('n', "<C-q>", ":q!<CR>")
 map('n', "<C-Left>", ":bnext<CR>")
 map('n', "<C-Right>", ":bprev<CR>")
+map('n', "<C-h>", "<C-w>h")
+map('n', "<C-l>", "<C-w>l")
 
 map('i', "<C-s>", "<ESC>:w<CR>a")
 map('i', "<S-Tab>", "<ESC>:<<CR>i")
@@ -21,8 +23,6 @@ map('i', "<C-q>", "<ESC>:q!<CR>")
 
 map('n', "<Space>", ":NvimTreeToggle<CR>")
 map('n', "<C-Bslash>", ":NvimTreeFocus<CR>")
-map('n', "<C-h>", "<C-w>h")
-map('n', "<C-l>", "<C-w>l")
 
 map('i', "<C-Bslash>", "<ESC>:NvimTreeFocus<CR>")
 
