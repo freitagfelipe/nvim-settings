@@ -88,8 +88,4 @@ Plug("catppuccin/nvim", {
 
 Plug "navarasu/onedark.nvim"
 
-Plug("folke/tokyonight.nvim", {
-    branch = "main"
-})
-
 Plug.ends()
