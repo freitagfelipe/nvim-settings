@@ -13,4 +13,6 @@ opt.termguicolors = true
 opt.clipboard = "unnamedplus"
 opt.pumheight = 10
 opt.splitbelow = true
+opt.splitright = true
 opt.signcolumn = "yes"
+opt.cursorline = true
