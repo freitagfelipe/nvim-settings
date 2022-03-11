@@ -36,14 +36,13 @@ nvim_tree.setup {
     disable_netrw = true,
     hijack_netrw = true,
     open_on_setup = true,
-    ignore_buffer_on_setup = false,
-    ignore_ft_on_setup = {
-        "vim-plug"
-    },
+    ignore_buffer_on_setup = true,
+    ignore_ft_on_setup = {},
     auto_close = true,
     auto_reload_on_write = true,
     open_on_tab = false,
-    hijack_cursor = false,
+    sort_by = "name",
+    hijack_cursor = true,
     update_cwd = true,
     hijack_unnamed_buffer_when_opening = false,
     hijack_directories = {
@@ -81,7 +80,7 @@ nvim_tree.setup {
         width = 30,
         height = 30,
         hide_root_folder = false,
-        side = 'left',
+        side = "left",
         preserve_window_proportions = true,
         mappings = {
             custom_only = false,
@@ -102,12 +101,12 @@ nvim_tree.setup {
         },
         open_file = {
             quit_on_open = false,
-            resize_window = false,
+            resize_window = true,
             window_picker = {
                 enable = true,
                 chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",
                 exclude = {
-                    filetype = {"vim-plug"},
+                    filetype = {},
                     buftype = {"help"}
                 }
             }
