@@ -2,6 +2,12 @@ local Plug = require("utils.vim-plug")
 
 Plug.begin("$HOME/.config/nvim/autoload/plugged")
 
+Plug("lewis6991/impatient.nvim", {
+    config = function()
+        require("plugins.impatient")
+    end
+})
+
 Plug "nvim-lua/plenary.nvim"
 
 Plug("lewis6991/gitsigns.nvim", {
@@ -79,6 +85,18 @@ Plug("norcalli/nvim-colorizer.lua", {
 Plug("akinsho/bufferline.nvim", {
     config = function()
         require("plugins.bufferline")
+    end
+})
+
+Plug("alvan/vim-closetag", {
+    config = function()
+        require("plugins.vim-closetag")
+    end
+})
+
+Plug("lukas-reineke/indent-blankline.nvim", {
+    config = function()
+        require("plugins.indent-blankline")
     end
 })
 
