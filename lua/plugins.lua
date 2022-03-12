@@ -88,9 +88,9 @@ Plug("akinsho/bufferline.nvim", {
     end
 })
 
-Plug("alvan/vim-closetag", {
+Plug("windwp/nvim-ts-autotag", {
     config = function()
-        require("plugins.vim-closetag")
+        require("plugins.nvim-ts-autotag")
     end
 })
 
