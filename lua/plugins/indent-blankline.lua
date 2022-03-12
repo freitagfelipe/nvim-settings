@@ -9,5 +9,10 @@ end
 indent_blankline.setup {
     show_end_of_line = false,
     show_current_context_start = true,
-    char = "▏"
+    char = "▏",
+    show_trailing_blankline_indent = false,
+    filetype_exclude = {
+        "lspinfo",
+        "lsp-installer"
+    }
 }
