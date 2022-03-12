@@ -14,10 +14,14 @@ map('n', "<C-Left>", ":bnext<CR>")
 map('n', "<C-Right>", ":bprev<CR>")
 map('n', "<C-h>", "<C-w>h")
 map('n', "<C-l>", "<C-w>l")
+map('n', "<C-j>", "<C-w>j")
+map('n', "<C-k>", "<C-w>k")
 
 map('i', "<C-s>", "<ESC>:w<CR>a")
 map('i', "<S-Tab>", "<ESC>:<<CR>i")
 map('i', "<C-q>", "<ESC>:q!<CR>")
+map('i', "<C-j>", "<ESC><C-w>j")
+map('i', "<C-k>", "<ESC><C-w>k")
 
 ------ Nvim tree mappings ------
 
