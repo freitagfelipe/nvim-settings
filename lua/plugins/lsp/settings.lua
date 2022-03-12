@@ -47,7 +47,7 @@ M.on_attach = function(_, bufnr)
     vim.api.nvim_buf_set_keymap(bufnr, 'n', "<S-k>", "<cmd>lua vim.lsp.buf.hover()<CR>", options)
     vim.api.nvim_buf_set_keymap(bufnr, 'n', "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", options)
     vim.api.nvim_buf_set_keymap(bufnr, 'n', "gl", "<cmd>lua vim.diagnostic.open_float({bufrn = 0})<CR>", options)
-    vim.api.nvim_buf_set_keymap(bufnr, 'n', "<C-k>", "<cmd>lua vim.lsp.buf.signature_help()<CR>", options)
+    vim.api.nvim_buf_set_keymap(bufnr, 'n', "go", "<cmd>lua vim.lsp.buf.signature_help()<CR>", options)
     vim.api.nvim_buf_set_keymap(bufnr, 'n', "gr", "<cmd>lua vim.lsp.buf.rename()<CR>", options)
     vim.api.nvim_buf_set_keymap(bufnr, 'n', "gL", "<cmd>lua vim.lsp.buf.references()<CR>", options)
 end
