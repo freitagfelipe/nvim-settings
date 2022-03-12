@@ -100,6 +100,12 @@ Plug("lukas-reineke/indent-blankline.nvim", {
     end
 })
 
+Plug("b3nj5m1n/kommentary", {
+    config = function()
+        require("plugins.kommentary")
+    end
+})
+
 Plug("catppuccin/nvim", {
     as = "catppuccin"
 })
