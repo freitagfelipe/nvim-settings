@@ -13,6 +13,10 @@ indent_blankline.setup {
     show_trailing_blankline_indent = false,
     filetype_exclude = {
         "lspinfo",
-        "lsp-installer"
+        "lsp-installer",
+        "terminal"
+    },
+    buftype_exclude = {
+        "terminal"
     }
 }
