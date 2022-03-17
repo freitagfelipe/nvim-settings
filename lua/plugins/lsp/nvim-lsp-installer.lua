@@ -8,7 +8,22 @@ end
 
 local path = require("nvim-lsp-installer.path")
 
-local servers = {}
+local servers = {
+    "bashls",
+    "clangd",
+    "csharp_ls",
+    "cmake",
+    "cssls",
+    "dockerls",
+    "gopls",
+    "html",
+    "hls",
+    "tsserver",
+    "sumneko_lua",
+    "pylsp",
+    "rust_analyzer",
+    "solargraph"
+}
 
 lsp_installer.settings({
     ui = {
