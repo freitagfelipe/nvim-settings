@@ -7,7 +7,32 @@ if not present then
 end
 
 treesitter.setup {
-    ensure_installed = {},
+    ensure_installed = {
+        "bash",
+        "c",
+        "c_sharp",
+        "cpp",
+        "cmake",
+        "css",
+        "dockerfile",
+        "elixir",
+        "go",
+        "haskell",
+        "html",
+        "javascript",
+        "jsdoc",
+        "json",
+        "lua",
+        "make",
+        "python",
+        "regex",
+        "ruby",
+        "rust",
+        "scss",
+        "tsx",
+        "typescript",
+        "vim"
+    },
     sync_install = false,
     highlight = {
         enable = true,
