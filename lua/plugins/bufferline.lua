@@ -13,7 +13,7 @@ bufferline.setup {
         right_mouse_command = "bdelete! %d",
         left_mouse_command = "buffer %d",
         middle_mouse_command = nil,
-        indicator_icon = "▎",
+        indicator_icon = "│",
         buffer_close_icon = "",
         modified_icon = "●",
         close_icon = "",
@@ -30,7 +30,7 @@ bufferline.setup {
         diagnostics = false,
         diagnostics_update_in_insert = false,
         offsets = {
-            {filetype = "NvimTree", text = "File Explorer", text_align = "left", padding = 1}
+            {filetype = "NvimTree", text = "File Explorer", text_align = "left", padding = 0}
         },
         show_buffer_icons = true,
         show_buffer_close_icons = true,
