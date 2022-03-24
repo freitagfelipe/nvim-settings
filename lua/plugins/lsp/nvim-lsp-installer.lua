@@ -18,6 +18,7 @@ local servers = {
     "gopls",
     "html",
     "hls",
+    "jdtls",
     "tsserver",
     "sumneko_lua",
     "pylsp",
