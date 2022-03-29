@@ -10,8 +10,8 @@ end
 
 map('n', "<C-s>", ":w<CR>")
 map('n', "<C-q>", ":q!<CR>")
-map('n', "<C-Left>", ":bnext<CR>")
-map('n', "<C-Right>", ":bprev<CR>")
+map('n', "<C-Left>", ":bprev<CR>")
+map('n', "<C-Right>", ":bnext<CR>")
 map('n', "<C-h>", "<C-w>h")
 map('n', "<C-l>", "<C-w>l")
 map('n', "<C-j>", "<C-w>j")
