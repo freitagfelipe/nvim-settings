@@ -38,7 +38,6 @@ nvim_tree.setup {
     open_on_setup = true,
     ignore_buffer_on_setup = true,
     ignore_ft_on_setup = {},
-    auto_close = true,
     auto_reload_on_write = true,
     open_on_tab = false,
     sort_by = "name",
