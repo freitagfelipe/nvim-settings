@@ -110,6 +110,12 @@ Plug("catppuccin/nvim", {
     as = "catppuccin"
 })
 
+Plug("andweeb/presence.nvim", {
+    config = function()
+        require("plugins.presence")
+    end
+})
+
 Plug "navarasu/onedark.nvim"
 
 Plug.ends()
