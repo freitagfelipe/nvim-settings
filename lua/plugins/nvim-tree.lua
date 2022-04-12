@@ -21,7 +21,6 @@ g.nvim_tree_icons = {
     }
 }
 g.nvim_tree_highlight_opened_files = 1
-g.nvim_tree_indent_markers = 1
 g.nvim_tree_git_hl = 1
 
 local present, nvim_tree = pcall(require, "nvim-tree")
@@ -108,6 +107,16 @@ nvim_tree.setup {
                     filetype = {},
                     buftype = {"help"}
                 }
+            }
+        }
+    },
+    renderer = {
+        indent_markers = {
+            enable = true,
+            icons = {
+                corner = "└ ",
+                edge = "│ ",
+                none = "  "
             }
         }
     }
