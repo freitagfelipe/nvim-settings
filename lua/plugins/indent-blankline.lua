@@ -14,7 +14,8 @@ indent_blankline.setup {
     filetype_exclude = {
         "lspinfo",
         "lsp-installer",
-        "terminal"
+        "terminal",
+        "NvimTree"
     },
     buftype_exclude = {
         "terminal"

@@ -106,14 +106,14 @@ Plug("b3nj5m1n/kommentary", {
     end
 })
 
-Plug("catppuccin/nvim", {
-    as = "catppuccin"
-})
-
 Plug("andweeb/presence.nvim", {
     config = function()
         require("plugins.presence")
     end
+})
+
+Plug("catppuccin/nvim", {
+    as = "catppuccin"
 })
 
 Plug "navarasu/onedark.nvim"
