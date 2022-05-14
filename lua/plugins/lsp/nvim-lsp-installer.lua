@@ -6,7 +6,7 @@ if not present then
     return
 end
 
-local path = require("nvim-lsp-installer.path")
+local path = require("nvim-lsp-installer.core.path")
 
 local servers = {
     "bashls",
