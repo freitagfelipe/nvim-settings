@@ -32,7 +32,8 @@ lsp_installer.settings({
             server_installed = "✓",
             server_pending = "➜",
             server_uninstalled = "✗"
-        }
+        },
+        border = "rounded"
     },
     install_root_dir = path.concat {os.getenv("HOME"), ".config/nvim/autoload/lsp_servers"}
 })
