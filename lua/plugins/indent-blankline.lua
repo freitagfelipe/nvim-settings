@@ -18,6 +18,7 @@ indent_blankline.setup {
         "NvimTree"
     },
     buftype_exclude = {
-        "terminal"
+        "terminal",
+        "nofile"
     }
 }
